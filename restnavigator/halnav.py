@@ -37,7 +37,7 @@ def autofetch(fn):
 
 def default_headers():
     '''Default headers for HALNavigator'''
-    return {'Accept': 'application/hal+json,application/json',
+    return {'Accept': 'application/hal+json,application/json,application/vnd.error+json',
             'User-Agent': 'HALNavigator/{}'.format(__version__)}
 
 
