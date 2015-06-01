@@ -26,7 +26,7 @@ from restnavigator import exc, utils
 
 
 DEFAULT_HEADERS = {
-    'Accept': 'application/hal+json,application/json',
+    'Accept': 'application/hal+json,application/json,application/vnd.error+json',
     'User-Agent': 'HALNavigator/{0}'.format(__version__)
 }
 
